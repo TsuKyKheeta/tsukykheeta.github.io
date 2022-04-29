@@ -129,11 +129,18 @@ a:focus {
   color: #8f8f8f;
 }
 
+
+  .img-max {
+   max-width: 150px;
+   width:100%;
+  }
+
 /* Hero */
 
 #hero {
-  background-image: url(../img/the-town-bg-01.jpg);
+  background-image: url(../img/mainScreen.png);
   background-repeat: no-repeat;
+  object-fit: contain;
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -416,10 +423,10 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  background: #082003;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 500px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 160px;
@@ -550,7 +557,7 @@ p {
   .tm-btn-submit {
     margin-left: 0;
     margin-top: 20px;
-  }
+  }	
 }
 
 @media (max-width: 767px) {
